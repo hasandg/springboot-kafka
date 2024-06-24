@@ -1,0 +1,26 @@
+spring.application.name=springboot-kafka-tutorial
+server.port=4444
+
+spring.info.build.creator=Hasan DAG
+
+spring.kafka.consumer.bootstrap-servers=localhost:9092
+spring.kafka.consumer.group-id=myGroup
+spring.kafka.consumer.auto-offset-reset=earliest
+spring.kafka.consumer.key-deserializer=org.apache.kafka.common.serialization.StringDeserializer
+spring.kafka.consumer.value-deserializer=org.springframework.kafka.support.serializer.JsonDeserializer
+
+spring.kafka.consumer.properties.partition.assignment.strategy=org.apache.kafka.clients.consumer.RoundRobinAssignor
+spring.kafka.consumer.properties.spring.json.trusted.packages=*
+
+#spring.kafka.consumer.properties.spring.json.trusted.packages=com.hasandag.springboot.payload
+
+
+
+spring.kafka.producer.bootstrap-servers=localhost:9092
+spring.kafka.producer.key-serializer=org.apache.kafka.common.serialization.StringSerializer
+spring.kafka.producer.value-serializer=org.springframework.kafka.support.serializer.JsonSerializer
+spring.kafka.producer.properties.spring.json.add.type.headers=false
+
+
+spring.kafka.topic.name=my-tutorial-topic
+spring.kafka.topic-json.name=my-tutorial-topic-json

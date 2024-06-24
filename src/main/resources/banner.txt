@@ -1,0 +1,17 @@
+
+${AnsiColor.BLUE} `7MMF'  `7MMF'      db       .M"""bgd      db      `7MN.   `7MF'    `7MM"""Yb.      db       .g8"""bgd
+${AnsiColor.BLUE}   MM      MM       ;MM:     ,MI    "Y     ;MM:       MMN.    M        MM    `Yb.   ;MM:    .dP'     `M
+${AnsiColor.BLUE}   MM      MM      ,V^MM.    `MMb.        ,V^MM.      M YMb   M        MM     `Mb  ,V^MM.   dM'       `
+${AnsiColor.BLUE}   MMmmmmmmMM     ,M  `MM      `YMMNq.   ,M  `MM      M  `MN. M        MM      MM ,M  `MM   MM
+${AnsiColor.BLUE}   MM      MM     AbmmmqMA   .     `MM   AbmmmqMA     M   `MM.M        MM     ,MP AbmmmqMA  MM.    `7MMF'
+${AnsiColor.BLUE}   MM      MM    A'     VML  Mb     dM  A'     VML    M     YMM        MM    ,dP'A'     VML `Mb.     MM
+${AnsiColor.BLUE} .JMML.  .JMML..AMA.   .AMMA.P"Ybmmd" .AMA.   .AMMA..JML.    YM      .JMMmmmdP'.AMA.   .AMMA. `"bmmmdPY
+
+${AnsiColor.BLACK}
+${AnsiColor.BLACK}
+${AnsiColor.BLACK}  ${AnsiColor.BLACK}Application Name : ${spring.application.name}
+${AnsiColor.BLACK}  ${AnsiColor.BRIGHT_RED}Spring Boot Version : ${spring-boot.formatted-version}
+${AnsiColor.BLACK}  ${AnsiColor.BRIGHT_YELLOW}Java Version : ${java.version}
+${AnsiColor.BLACK}  ${AnsiColor.BRIGHT_GREEN}Created by : ${spring.info.build.creator}
+${AnsiColor.BLACK}
+${AnsiColor.BLACK}
